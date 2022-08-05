@@ -1,0 +1,99 @@
+/* accent colour #2196F3 */
+/*studio coulour #000000 */
+/* main colour #212121 */
+/* shade colour #757575 */
+/*secondary colour #FFFFFF */
+/* footer nav colour rgba(255, 255, 255, 0.6) */
+/* background: #F5F5F5; */
+/* background footer: #2F303A */
+/* background portfolio butomn: #F5F4FA */
+:root {
+    --primary-text-color:#212121;
+    --text-color: #757575;
+    --accent-color: #2196F3;
+}
+body{
+color: var(--primary-text-color);
+background-color: #F5F5F5;}
+ul{
+    list-style: none;
+}
+.logo{
+    color: #000000;
+}
+span{
+    color: var(--accent-color);
+}
+/* sire nav */
+.site-nav-list .link{
+    color: var(--primary-text-color);
+}
+.site-nav-list .link:hover,
+.site-nav-list .link:focus{
+    color: var(--accent-color);
+}
+.site-nav-list .link.current{
+    color: var(--accent-color)
+}
+/* contacts */
+.contacts .link{
+    color: var(--primary-text-color);
+}
+.contacts .link:hover,
+.contacts .link:focus{
+    color: var(--accent-color);
+}
+/* hero */
+.hero{
+    background-color: #2F303A;
+}
+.hero-title{
+    color: #FFFFFF;
+}
+.section .title{
+    color: var(--primary-text-color);
+}
+.features .subtitle,
+.team-list .subtitle{
+    color: var(--primary-text-color);
+}
+.features .text,
+.team-list .text{
+    color: var(--text-color);
+}
+.button{
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+/* footer */
+.footer{
+    background-color: #2F303A;
+}
+.logo-footer{
+    color: #FFFFFF;
+}
+.contacts .address{
+    color: #FFFFFF;
+}
+.footer-link{
+    color: rgba(255, 255, 255, 0.6);;
+}
+
+/* portfolio */
+.button-portfolio{
+    color: 212121;
+    background-color: #F5F4FA;
+}
+.button-portfolio:hover,
+.button-portfolio:focus{
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+.work-list .subtitle{
+    color: var(--primary-text-color)
+}
+.work-list .text{
+    color: var(--text-color);
+}
+
+}
