@@ -14,19 +14,38 @@
 }
 body{
 color: var(--primary-text-color);
-background-color: #F5F5F5;}
+background-color: #F5F5F5;
+font-family: Roboto, sans-serif;
+Letter spacing: 0.03em;
+}
 ul{
     list-style: none;
 }
 .logo{
     color: #000000;
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 }
 span{
     color: var(--accent-color);
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 }
 /* sire nav */
 .site-nav-list .link{
     color: var(--primary-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .site-nav-list .link:hover,
 .site-nav-list .link:focus{
@@ -38,6 +57,10 @@ span{
 /* contacts */
 .contacts .link{
     color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .contacts .link:hover,
 .contacts .link:focus{
@@ -49,21 +72,53 @@ span{
 }
 .hero-title{
     color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 .section .title{
     color: var(--primary-text-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 .features .subtitle,
 .team-list .subtitle{
     color: var(--primary-text-color);
+   
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 .features .text,
 .team-list .text{
     color: var(--text-color);
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.92;
+    letter-spacing: 0.03em;
 }
 .button{
     color: #FFFFFF;
     background-color: var(--accent-color);
+    
+        
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 /* footer */
 .footer{
@@ -71,6 +126,10 @@ span{
 }
 .logo-footer{
     color: #FFFFFF;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 }
 .contacts .address{
     color: #FFFFFF;
