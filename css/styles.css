@@ -12,31 +12,35 @@
     --text-color: #757575;
     --accent-color: #2196F3;
 }
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+
 body{
+    margin: 0;
 color: var(--primary-text-color);
 background-color: #F5F5F5;
 font-family: Roboto, sans-serif;
 letter-spacing: 0.03em;
 font-style: normal
 font-weight: 400;
+
 }
 
-ul{
+ul,
+h1,
+h2,
+h3,
+h4,
+p{
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 .link{
     text-decoration: none;
 }
 
 .container{
-    margin-left: auto;
-    margin-right: auto;
-    width: 1170px;
+    margin: 0 auto;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     outline: 2px solid tomato;
@@ -74,6 +78,13 @@ ul{
     color: var(--accent-color)
 }
 /* contacts */
+.contacts{
+    margin: 0 auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 2px solid tomato;
+}
 .contacts .link{
     color: var(--text-color);
     font-weight: 500;
@@ -93,7 +104,7 @@ ul{
 }
 .hero-title{
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 30;
     color: #FFFFFF;
     font-weight: 900;
     font-size: 44px;
@@ -109,20 +120,41 @@ ul{
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-
+    padding-bottom: 50px;
 }
+
 .team-list .subtitle{
     color: var(--primary-text-color);
   
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
+    margin-top: 30px;
+    
+}
+
+.title-visually-hidden{
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
 .team-list .text{
     color: var(--text-color);
 
     font-size: 14px;
     line-height: 1.92;
+    margin-top: 10px;
+}
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .features .subtitle{
     color: var(--primary-text-color);
@@ -137,8 +169,10 @@ ul{
 
     font-size: 14px;
     line-height: 1.71;
+    margin-top: 10px;
 }
 .button{
+    display: inline-block;
     font-family: 'Roboto';
 
     color: #FFFFFF;
@@ -153,7 +187,7 @@ ul{
     border-radius: 4px;
     padding: 10px 32px;
     
-    margin-top: 30px;
+
     border: none;
     
 }
